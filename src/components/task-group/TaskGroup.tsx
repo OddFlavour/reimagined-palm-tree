@@ -2,7 +2,6 @@ import { Badge, Button, Card, Group, Stack, Text } from "@mantine/core";
 import { TaskTable } from "../task-table/TaskTable";
 import { useDisclosure } from "@mantine/hooks";
 import { TaskModal } from "../task-modal/TaskModal";
-import { createPortal } from "react-dom";
 
 export function TaskGroup() {
     const [opened, { open, close }] = useDisclosure(false);
